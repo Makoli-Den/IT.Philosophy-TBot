@@ -1,0 +1,46 @@
+# Python
+*.pyc
+*.pyo
+__pycache__/
+*.pyd
+
+# Виртуальная среда
+venv/
+env/
+*.env
+
+# Конфигурации IDE
+.vscode/
+.idea/
+
+# Логи
+*.log
+
+# Папки базы данных (если не используется в виде глобальных)
+*.sqlite3
+db/*.db
+db/*.db*
+
+# Установленные пакеты
+*.egg-info/
+.eggs/
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# История версий
+*.bak
+*.swp
+*.swo
+
+# Папки и файлы для тестов
+*.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.coveragerc
+
+# Файлы конфигурации для CI/CD
+*.yml
+*.yaml
