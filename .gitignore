@@ -7,7 +7,6 @@ __pycache__/
 # Виртуальная среда
 venv/
 env/
-*.env
 
 # Конфигурации IDE
 .vscode/
